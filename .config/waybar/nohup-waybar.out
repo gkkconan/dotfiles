@@ -1,11 +1,24 @@
-[2024-07-22 14:11:27.778] [info] Using configuration file /home/conan/.config/waybar/config
-[2024-07-22 14:11:27.778] [info] Including resource file: ~/.config/waybar/modules.jsonc
-[2024-07-22 14:11:27.779] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
-[2024-07-22 14:11:27.779] [info] Using CSS file /home/conan/.config/waybar/style.css
-[2024-07-22 14:11:27.783] [info] Hyprland IPC starting
-[2024-07-22 14:11:27.783] [warning] $XDG_RUNTIME_DIR/hypr does not exist, falling back to /tmp/hypr
-[2024-07-22 14:11:27.783] [error] Hyprland IPC: Couldn't connect to /tmp/hypr/.socket.sock. (3)
-[2024-07-22 14:11:27.783] [warning] module hyprland/workspaces: Disabling module "hyprland/workspaces", Error parsing JSON: * Line 1, Column 1
-  Syntax error: value, object or array expected.
-
-[2024-07-22 14:11:27.856] [info] Bar configured (width: 1270, height: 30) for output: eDP-1
+[2024-07-22 21:05:05.922] [info] Using configuration file /home/conan/.config/waybar/config
+[2024-07-22 21:05:05.922] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2024-07-22 21:05:05.924] [info] Using CSS file /home/conan/.config/waybar/style.css
+[2024-07-22 21:05:05.928] [info] Hyprland IPC starting
+[2024-07-22 21:05:05.928] [warning] $XDG_RUNTIME_DIR/hypr does not exist, falling back to /tmp/hypr
+[2024-07-22 21:05:05.928] [warning] $XDG_RUNTIME_DIR/hypr does not exist, falling back to /tmp/hypr
+[2024-07-22 21:05:05.929] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:05:06.001] [info] Bar configured (width: 1270, height: 30) for output: eDP-1
+[2024-07-22 21:13:19.148] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:13:19.155] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:14:49.242] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:14:49.255] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:15:09.286] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:15:09.300] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:15:15.352] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:15:15.358] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:16:41.442] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:16:41.451] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:17:15.510] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:17:15.533] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:17:27.591] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:17:27.593] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 21:18:12.638] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-22 21:18:12.647] [info] Loading persistent workspaces from Hyprland workspace rules

@@ -15,7 +15,7 @@
     gap_size = 5
     line_height = 0
     frame_width = 0
-    frame_color = "#343D20"
+    frame_color = "#FFFFFF25"
     separator_height = 1
     separator_color = frame
         transparency = 30
@@ -53,19 +53,19 @@
 
 
 [urgency_low]
-    background = "#1E1E2EE6"
+    background = "#1E1E2ECC"
     foreground = "#D8DEE9"
     timeout = 5
     # icon = /path/to/icon
 
 [urgency_normal]
-    background = "#1E1E2EE6"
+    background = "#1E1E2ECC"
     foreground = "#D8DEE9"
     timeout = 20
     # icon = /path/to/icon
 
 [urgency_critical]
-    background = "#F28FAD99"  # "#C77365"
+    background = "#F28FADE6"  # "#C77365"
     foreground = "#1D232B"
     timeout = 0
     # icon = /path/to/icon

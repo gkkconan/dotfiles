@@ -1,0 +1,36 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "height": 30,
+  "margin": "5 5 0 5",
+  "mode": "dock",
+  "reload_style_on_change": true,
+
+  "include" : ["~/.config/waybar/modules.jsonc"],
+
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": ["wlr/taskbar"],
+  "modules-right": ["custom/settings", "network", "battery", "clock", "custom/powermenu"],
+
+
+
+	"group/power": {
+		"orientation": "inherit",
+		"drawer": {
+			"transition-duration": 250,
+        "children-class": "power-child",
+        "transition-left-to-right": true
+    },
+    "modules": ["battery", "power-profiles-daemon"]
+  },
+
+  "group/backlight": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 250,
+        "children-class": "backlight-child",
+        "transition-left-to-right": true
+    },
+    "modules": ["backlight", "backlight/slider"]
+  }
+}

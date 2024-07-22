@@ -1,0 +1,86 @@
+{
+    "hyprland/workspaces" : {
+    "format" : "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1"
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "tooltip-format": "{name} - {title}",
+    "icon-size": 14,
+    "icon-theme": "adwaita",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "on-click-right": "minimize",
+    "ignore-list": []
+  },
+
+  "hyprland/window": {
+    "format": "{initialTitle} - {class}"
+  },
+
+
+
+  "custom/settings": {
+    "format": "",
+    "icon-size": 20
+  },
+
+  "network": {
+    "format": "{ifname}",
+    "format-alt": "{essid}",
+    "format-alt-click": "click-left",
+    "format-wifi": "<span font='Font Awesome 5 Free 10'></span>",
+    "format-ethernet": " {ifname}",
+    "format-disconnected": "⚠",
+    "tooltip-format": " {essid}\rNetwork Interface: {ifname}\rSignal Strength: {signalStrength}\rSignal Strength (dBm): {signaldBm}\rSubnetmask: {netmask}\rDefault Gateway: {gwaddr}\r{ipaddr}/{cidr}\rFrequency: {frequency}\r {bandwidthUpBytes}\r {bandwidthDownBytes}",
+    "on-click": ""
+  },
+
+  "battery": {
+    "format": "<span font='Font Awesome 5 Free 11'>{icon}</span>",
+    "format-alt": "<span font='Font Awesome 5 Free 11'>{icon}</span> {capacity}% - {time}",
+    "format-icons": ["", "", "", "", ""],
+    "format-time": "{H}h{M}m",
+    "format-charging": "{capacity}% <span font='Font Awesome 5 Free'></span>",
+    "format-full": "<span font='Font Awesome 5 Free 11'>{icon}</span> Charged",
+    "interval": 30,
+    "states": {
+      "good": 100,
+      "warning": 25,
+      "alert": 15,
+      "critical": 10
+    },
+    "tooltip": true,
+    "on-click": "2"
+  },
+
+  "clock": {
+      "format": "{:%H:%M}",
+      "format-alt": "{:%A %d.%m}",
+      "tooltip-format": "<tt><big>{calendar}</big></tt>",
+      "calendar": {
+        "mode": "month",
+        "on-scroll": 1,
+        "format": {
+          "months":     "<span color='#8fbcbb'><b>{}</b></span>",
+          "days":       "<span color='#8a909e'>{}</span>",
+          "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+          "weekdays":   "<span color='#81a1c1'><b>{}</b></span>",
+          "today":      "<span color='#88c0d0'><b>{}</b></span>"
+        }
+      },
+      "actions": {
+        "on-click-right": "mode",
+        "on-scroll-up": "shift_up",
+        "on-scroll-down": "shift_down"
+      }
+    },
+
+  "custom/powermenu": {
+      "format": "⏻",
+      "tooltip": false,
+      "on-click": "~/.config/scripts/power-menu.sh &"
+  }
+}

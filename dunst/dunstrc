@@ -1,0 +1,71 @@
+[global]
+    monitor = 0
+    # follow = keyboard
+
+    ### position ###
+    origin = top-right
+    offset = 10x10
+    layer = overlay                         # need to be specified to be showed also in fullscreen mode
+
+    ### general styles ###
+    width = 250
+    padding = 10
+    corner_radius = 5
+    icon_corner_radius = 5
+    gap_size = 5
+    line_height = 0
+    frame_width = 0
+    frame_color = "#343D20"
+    separator_height = 1
+    separator_color = frame
+        transparency = 30
+
+    ### font ###
+    font = Roboto 10
+    alignment = right
+
+    sort = yes                              # sort messages by urgence
+    show_age_threshold = 60                 # show for how much time is displayed a notification
+
+    ### actions ###
+    mouse_left_click = do_action, close_current
+    mouse_middle_click = close_all
+    mouse_right_click = close_current
+
+    ### layout ###
+    markup = fullmax_icon_size
+    format = "<b>%a</b> \n %s \n %b"
+    word_wrap = yes
+    stack_duplicates = true                 # merge multiple notifications with the same content
+    hide_duplicate_count = false            # this show the count of merged notifications with the same content
+    show_indicators = yes
+
+    ### icons ###
+    icon_position = left
+    max_icon_size = 78
+    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+
+    ### history ###
+    sticky_history = yes
+    history_length = 50                     # to show notification history, run: $ dunstctl history
+
+    browser = /usr/bin/firefox -new-tab     # to open urls with firefox
+
+
+[urgency_low]
+    background = "#1E1E2EE6"
+    foreground = "#D8DEE9"
+    timeout = 5
+    # icon = /path/to/icon
+
+[urgency_normal]
+    background = "#1E1E2EE6"
+    foreground = "#D8DEE9"
+    timeout = 20
+    # icon = /path/to/icon
+
+[urgency_critical]
+    background = "#F28FAD99"  # "#C77365"
+    foreground = "#1D232B"
+    timeout = 0
+    # icon = /path/to/icon

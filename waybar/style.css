@@ -1,0 +1,115 @@
+@import '../hypr/palette.css';
+
+*{font-family: Symbols Nerd Font, JetBrainsMono Nerd Font Mono; font-size: 12px; transition: .25s;}
+window#waybar{
+    /* background: rgba(14, 13, 26, 0.75); */
+    background: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* window#waybar.hidden{opacity: 0.2;}
+tooltip label{color: white;} */
+tooltip{background: rgba(27, 27, 27, 0.9); border-radius: 5px;}
+
+.modules-right, .modules-center {
+	background-color: rgba(27, 27, 27, 0.75);
+    margin: 0 10px 0 0;
+    padding: 0 15px;
+    border-radius: 20px;
+}
+
+.modules-right *{margin: 0 5px;}
+.modules-right *:hover{color: white;}
+
+button:hover{
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}
+
+/*** WORKSPACES ***/
+#workspaces {margin-left: 0.5em; color: white;}
+#workspaces label{font-size: 10px;}
+#workspaces button{padding: 0 3px; margin: 0em 0.3em; color: white;}
+#workspaces button.active, #workspaces button:hover{
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid white;
+    background-color: rgba(27, 27, 27, 0.75);
+}
+#workspaces button.urgent{color: red;}
+#window{margin-left: 5px; color: white;}
+
+
+/*** TASKBAR ***/
+#taskbar button{padding: 2px 5px;}
+#taskbar button.active, #taskbar button:hover{border-radius: 5px; background: rgba(0, 0, 0, 0.5);}
+
+
+/*** POWER MENU BUTTON ***/
+#custom-settings{font-size: 15px;}
+
+/*** BATTERY ***/
+#battery.warning{color: #FFD35A;}
+#battery.alert{color: #f53c3c; animation: 0.5s blink linear infinite alternate;}
+#battery.critical{color: #f53c3c; animation: 0.1s blink linear infinite alternate;}
+#battery.charging{color: #88D66C;}
+#network.disconnected{margin-top: -2px; color: #f53c3c; font-size: 13px; font-weight: bold;}
+
+@keyframes blink{ to{color: white;} }
+
+
+/*** POWER MENU BUTTON ***/
+#custom-powermenu{font-size: 15px; margin-top: 3px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #custom-notification,
+#custom-updates,
+#custom-github,
+#custom-weather,
+#idle_inhibitor,
+#wireplumber,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#disk,
+#pulseaudio,
+#clock,
+#network {
+    padding: 0 0.5em;
+    margin: 0 5px; */
+
+/* Unique colors for modules */
+/* #cpu{color: red;}
+#memory{color: yellow;}
+#network{color: green;}
+#disk{color: @peru;}
+#temperature{color: green;}
+#pulseaudio{color: @shadow-blue;}
+#idle_inhibitor{color: @peru;}
+#network.disconnected{background-color: #f53c3c;}
+#temperature.critical{background-color: #eb4d4b;}
+#clock{color: white;}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+} */

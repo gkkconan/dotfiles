@@ -11,7 +11,7 @@ window#waybar{
 tooltip label{color: white;} */
 tooltip{background: rgba(27, 27, 27, 0.9); border-radius: 5px;}
 
-.modules-right, .modules-center {
+.modules-right{
 	background-color: rgba(27, 27, 27, 0.75);
     margin: 0 10px 0 0;
     padding: 0 15px;
@@ -44,6 +44,8 @@ button:hover{
 
 
 /*** TASKBAR ***/
+#taskbar{background-color: rgba(27, 27, 27, 0.75); padding: 0 15px; margin: 0; border-radius: 20px}
+#taskbar.empty{background: none;}
 #taskbar button{padding: 2px 5px;}
 #taskbar button.active, #taskbar button:hover{border-radius: 5px; background: rgba(0, 0, 0, 0.5);}
 

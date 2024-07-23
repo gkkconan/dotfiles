@@ -24,7 +24,8 @@
 
   "custom/settings": {
     "format": "",
-    "icon-size": 20
+    "icon-size": 20,
+    "on-click": "sh ~/.config/scripts/settings.sh"
   },
 
   "network": {
@@ -35,7 +36,7 @@
     "format-ethernet": " {ifname}",
     "format-disconnected": "⚠",
     "tooltip-format": " {essid}\rNetwork Interface: {ifname}\rSignal Strength: {signalStrength}\rSignal Strength (dBm): {signaldBm}\rSubnetmask: {netmask}\rDefault Gateway: {gwaddr}\r{ipaddr}/{cidr}\rFrequency: {frequency}\r {bandwidthUpBytes}\r {bandwidthDownBytes}",
-    "on-click": ""
+    "on-click": "kitty nmcli dev wifi list"
   },
 
   "battery": {

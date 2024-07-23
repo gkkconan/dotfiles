@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# ####################### #
-#      SETTINGS MENU      #
-# ####################### #
+#-------------------------------------------------
+#----- SETTINGS MENU
+#-------------------------------------------------
 
 pid=$(pgrep eww)
 
 if [ -n "$pid" ]; then
-    kill $pid
+    eww kill
     if [ $? -eq 0 ]; then
         echo "Eww killed suxcefully"
     else

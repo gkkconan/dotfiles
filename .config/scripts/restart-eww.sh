@@ -8,4 +8,4 @@
 killall eww
 sleep 0.2
 
-nohup eww open example > ~/.config/eww/nohup-eww.out
+nohup eww open control-panel > ~/.config/eww/nohup-eww.out

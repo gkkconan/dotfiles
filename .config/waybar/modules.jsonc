@@ -24,8 +24,10 @@
 
   "custom/settings": {
     "format": "",
+    "tooltip-format": "Settings",
     "icon-size": 20,
-    "on-click": "sh ~/.config/scripts/settings.sh"
+    "on-click-right": "sh ~/.config/scripts/settings.sh",
+    "exec-on-event": true
   },
 
   "network": {

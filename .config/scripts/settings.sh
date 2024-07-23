@@ -14,5 +14,5 @@ if [ -n "$pid" ]; then
         echo "Error while killing Eww"
     fi
 else
-    nohup eww open example > ~/.config/eww/nohup-eww.out
+    nohup eww open control-panel > ~/.config/eww/nohup-eww.out
 fi

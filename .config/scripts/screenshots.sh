@@ -4,17 +4,24 @@
 dir="`xdg-user-dir PICTURES`/Screenshots"
 filename="screen_$(date +"%H%M%S_%d%m%Y").png"
 
-
 FullScreenshot(){
 	grim "$dir"/"$filename"
 	wl-copy < "$dir"/"$filename"
-	notify-send "Screenshot copied and saved" -u "low" -a "System" -t 2500
+	notify=$(dunstify -a System -u "low" --action="default, open_image" "Screenshot copied and saved" -t 2500 -h string:x-dunst-stack-tag:color-picker)
+	[ "$notify" = "default" ] && {
+		nautilus "$dir"/"$filename"
+		dunstify -a System -u normal "Opening screenshot..." -t 1500 -h string:x-dunst-stack-tag:color-picker
+	}
 }
 
 PartialScreenshot(){
 	grim -g "$(slurp)" "$dir"/"$filename"
 	wl-copy < "$dir"/"$filename"
-	notify-send "Screenshot copied and saved" -u "low" -a "System" -t 2500
+	notify=$(dunstify -a System -u low --action="default, open_image" "Screenshot copied and saved" -t 2500 -h string:x-dunst-stack-tag:color-picker)
+	[ "$notify" = "default" ] && {
+		nautilus "$dir"/"$filename"
+		dunstify -a System -u normal "Opening screenshot..." -t 1500 -h string:x-dunst-stack-tag:color-picker
+	}
 }
 
 

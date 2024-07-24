@@ -18,7 +18,7 @@
     frame_color = "#FFFFFF25"
     separator_height = 1
     separator_color = frame
-        transparency = 30
+    transparency = 30
 
     ### font ###
     font = Roboto 10
@@ -65,7 +65,7 @@
     # icon = /path/to/icon
 
 [urgency_critical]
-    background = "#F28FADE6"  # "#C77365"
+    background = "#8272A499"		 # "#F28FADE6"  # "#C77365"
     foreground = "#1D232B"
     timeout = 0
     # icon = /path/to/icon

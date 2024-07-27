@@ -49,12 +49,12 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 
 ## TODO
 - [ ] Neovim Configs
-- [ ] Fish Configs
-- [ ] Wofi Restyle
+- [x] Fish Configs
+- [ ] Switch to rofi as Launcher
 - [ ] Switch to SWWW instead Hyprpaper
 - [ ] Browser startpage
 - [ ] Notification Center
-- [ ] Hyprlock Configs
+- [x] Hyprlock Configs
 
 ## Customization
 Feel free to fork this repository and adjust the configurations to fit your needs. Everyone's workflow is different, and these dotfiles are tailored to mine. Tweak away!

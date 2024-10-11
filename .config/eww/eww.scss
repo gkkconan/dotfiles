@@ -74,3 +74,50 @@ window{
     margin: 10px 0;
 }
 .functions button:hover{background: rgba(75, 75, 75, .9);}
+
+
+
+
+
+
+
+
+
+
+// WALLPAPER SETTINGS
+
+// .wallpaper-container{padding: 10px;}
+
+// .wallpaper{
+//  min-width: 350px;
+//  min-height: 250px;
+//  border-radius: 10px;
+//  margin: 25px 25px 10px 25px;
+//  padding: 0
+// }
+
+// .path-badge{
+//   padding: 20px
+// }
+
+.wallpaper-container{padding: 25px}
+
+.wallpaper{
+  min-width: 450px;
+  min-height: 250px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.path-badge{
+
+}
+.badge{
+  border: 2px solid red;
+  padding: 0;
+}
+
+.path{
+  padding: 0 50px;
+  border: 2px solid blue
+}

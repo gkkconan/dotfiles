@@ -1,0 +1,1 @@
+rofi -no-config -no-lazy-grab -show drun -theme ~/.config/rofi/config.rasi

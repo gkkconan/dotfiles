@@ -4,6 +4,9 @@
 (include "./modules/controls.yuck")
 (include "./modules/setting.yuck")
 
+(include "./modules/wallpaper-settings.yuck")
+
+
 
 (defwindow control-panel
   :monitor 0
@@ -23,3 +26,17 @@
 
   )
 )
+
+
+
+(defwindow wallpaperControl
+	:monitor 0
+	:geometry (
+		geometry	:x "50px"
+					:y "50px"
+					:width "500px"
+					:height "400px"
+					:anchor "center"
+	)
+
+(wallpaperSettings))

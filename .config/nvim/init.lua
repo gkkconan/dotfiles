@@ -67,11 +67,7 @@ require("barbar").setup{
 	version = '^1.0.0'
 }
 
-require("lualine").setup{
-	options = {
-		theme = 'auto'
-	}
-}
+require("lualine").setup()
 
 require("catppuccin").setup({transparent_background = false})
 

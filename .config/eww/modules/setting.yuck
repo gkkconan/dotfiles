@@ -3,7 +3,7 @@
       (box :spacing 5
         (button :style {!state ? 'background: #f38f70;' : ''}
             :onclick {state ? 'nmcli n off' : 'nmcli n on'}
-            (label :text {state ? ' ${connectionName}' : ' Disabled'})
+            (label :text {state ? '   ${connectionName}' : '   Disabled'})
         )
 
         (button

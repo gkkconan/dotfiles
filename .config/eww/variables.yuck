@@ -2,6 +2,7 @@
 
 ;;;; VARIABLES
 (defvar PFP "./src/pfp.jpg")
+(defvar WALLPAPER "./src/wallpapers/red-landscape-wallpaper.png")
 
 (deflisten batteryLevel `upower -i /org/freedesktop/UPower/devices/DisplayDevice | awk '/percentage:/ {gsub(/%/,""); print $2}'`)
 (deflisten batteryTime `upower -i /org/freedesktop/UPower/devices/DisplayDevice | awk '/time to/{print $4, $5}'`)

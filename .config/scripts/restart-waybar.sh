@@ -4,8 +4,10 @@
 #----- WAYBAR RESTART
 #-------------------------------------------------
 
+pid=$(pgrep waybar)
 
-killall waybar
-sleep 0.2
-
-nohup waybar > ~/.config/waybar/nohup-waybar.out
+if [ -n "$pid" ]; then
+	killall waybar
+else
+	nohup waybar > ~/.config/waybar/nohup-waybar.out
+fi

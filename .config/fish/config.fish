@@ -17,3 +17,7 @@ end
 function fish_greeting
 	echo 'Welcome'(set_color DF1722) $USER ':)'
 end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

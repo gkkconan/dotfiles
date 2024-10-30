@@ -8,7 +8,7 @@
 
   "include" : ["~/.config/waybar/modules.jsonc"],
 
-  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-left": ["hyprland/workspaces"],
   "modules-center": ["wlr/taskbar"],
   "modules-right": ["custom/settings", "network", "battery", "clock", "custom/powermenu"],
 

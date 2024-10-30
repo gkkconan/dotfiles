@@ -11,9 +11,8 @@ window#waybar{
 tooltip label{color: white;} */
 tooltip{background: rgba(27, 27, 27, 0.9); border-radius: 5px;}
 
-.modules-right{
-	background-color: rgba(27, 27, 27, 0.75);
-    margin: 0 10px 0 0;
+.modules-left, .modules-right{
+	/* background-color: rgba(191, 181, 175, 0.75); */
     padding: 0 15px;
     border-radius: 20px;
 }
@@ -29,7 +28,7 @@ button:hover{
 }
 
 /*** WORKSPACES ***/
-#workspaces {margin-left: 0.5em; color: white;}
+/* #workspaces {margin-left: 0.5em; color: white;}
 #workspaces label{font-size: 10px;}
 #workspaces button{padding: 0 3px; margin: 0em 0.3em; color: white;}
 #workspaces button.active, #workspaces button:hover{
@@ -40,11 +39,23 @@ button:hover{
     background-color: rgba(27, 27, 27, 0.75);
 }
 #workspaces button.urgent{color: red;}
-#window{margin-left: 5px; color: white;}
+#window{margin-left: 5px; color: white;} */
 
+#workspaces button {
+	min-width: 0; min-height: 0;
+	padding: 0px 7px;
+	margin: 7px 2px;
+	border: 2px solid white;
+	border-radius: 16px;
+}
+
+#workspaces button.active{
+	min-width: 10px;
+	background: white;
+}
 
 /*** TASKBAR ***/
-#taskbar{background-color: rgba(27, 27, 27, 0.75); padding: 0 15px; margin: 0; border-radius: 20px}
+#taskbar{/* background-color: rgba(27, 27, 27, 0.75); */ padding: 0 15px; margin: 0; border-radius: 20px}
 #taskbar.empty{background: none;}
 #taskbar button{padding: 2px 5px;}
 #taskbar button.active, #taskbar button:hover{border-radius: 5px; background: rgba(0, 0, 0, 0.5);}

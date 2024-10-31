@@ -5,7 +5,7 @@ horizontal = true
 
 font = Fanwood Text
 font-size = 12
-prompt-text = ">  "
+prompt-text = "  >  "
 
 outline-width = 0
 border-width = 0

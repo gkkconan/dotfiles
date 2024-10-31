@@ -35,26 +35,25 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 ## Configs
 - OS: Fedora
 - WM (Window Manager): Hyprland
-- File Manager: Nautilus
-- Browser: LibreWolf
+- File Manager: Nautilus (WIP)
+- Browser: Firefox
 - Terminal: Kitty
-- Shell: Fish (WIP)
+- Shell: Fish
 - Editor: Codium/Neovim
 - Top Bar: Waybar
-- Launcher: Wofi
-- Basic Control Panel: EWW
-- Audio Visualizer: Cava (WIP)
+- Launcher: Tofi
+- Basic Control Panel: EWW (WIP)
+- Audio Visualizer: Cava
 - Notification Daemon: Dunst
 - Wallpaper Daemon: Hyprpaper
 
 ## TODO
 - [ ] Neovim Configs
 - [x] Fish Configs
-- [ ] Switch to rofi as Launcher
+- [x] Switch to tofi as App Launcher
 - [ ] Switch to SWWW instead Hyprpaper
-- [ ] Browser startpage
 - [ ] Notification Center
-- [x] Hyprlock Configs
+- [ ] Hyprlock Configs
 
 ## Customization
 Feel free to fork this repository and adjust the configurations to fit your needs. Everyone's workflow is different, and these dotfiles are tailored to mine. Tweak away!

@@ -1,23 +1,14 @@
 @import '../hypr/palette.css';
-@define-color default rgb(255, 255, 255);
 
 *{font-family: Symbols Nerd Font, JetBrainsMono Nerd Font Mono; font-size: 12px; transition: .25s;}
 window#waybar{
-    /* background: rgba(14, 13, 26, 0.75); */
     background: none;
-    color: @default;
+    color: @theme;
 }
 
-/* window#waybar.hidden{opacity: 0.2;}
-tooltip label{color: white;} */
 tooltip{background: rgba(27, 27, 27, 0.9); border-radius: 5px;}
 
-.modules-left, .modules-right{
-	/* background-color: rgba(191, 181, 175, 0.75); */
-    padding: 0 15px;
-    border-radius: 20px;
-}
-
+.modules-left, .modules-right{padding: 0 15px; border-radius: 20px;}
 .modules-right *{margin: 0 5px;}
 .modules-right *:hover{color: white;}
 
@@ -33,20 +24,21 @@ button:hover{
 	min-width: 0; min-height: 0;
 	padding: 0px 7px;
 	margin: 7px 2px;
-	border: 2px solid @default;
+	border: 2px solid @theme;
 	border-radius: 16px;
 }
 
 #workspaces button.active{
 	min-width: 10px;
-	background: @default;
+	background: @theme;
 }
 
+
 /*** TASKBAR ***/
-#taskbar{/* background-color: rgba(27, 27, 27, 0.75); */ padding: 0 15px; margin: 0; border-radius: 20px}
+#taskbar{padding: 0 15px; margin: 0; border-radius: 20px}
 #taskbar.empty{background: none;}
 #taskbar button{padding: 2px 5px;}
-#taskbar button.active, #taskbar button:hover{border-radius: 5px; background: rgba(0, 0, 0, 0.5);}
+#taskbar button.active, #taskbar button:hover{border-radius: 5px;}
 
 
 /*** POWER MENU BUTTON ***/

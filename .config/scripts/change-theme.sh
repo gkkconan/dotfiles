@@ -2,14 +2,15 @@
 currentTheme=$(grep "^theme=" ~/.environment | cut -d '=' -f2)
 
 if [ -z "$currentTheme" ]; then
-	echo "theme=light" | tee -a ~/.environment > /dev/null
+	echo "theme=dark" > ~/.environment
 else
 	if [ "$currentTheme" = "light" ]; then
 		currentTheme="dark"
 	else
 		currentTheme="light"
 	fi
-	sed -i "s/^theme=.*/theme=$currentTheme/" ~/.environment
+	# sed -i "s/^theme=.*/theme=$currentTheme/" ~/.environment
+	echo "theme=$currentTheme" > ~/.environment
 	export theme=$currentTheme
 fi
 

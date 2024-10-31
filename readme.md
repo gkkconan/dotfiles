@@ -49,7 +49,7 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - [ ] Neovim Configs
 - [x] Fish Configs
 - [x] Switch to tofi as App Launcher
-- [ ] Switch to SWWW instead Hyprpaper
+- [x] Switch to SWWW instead Hyprpaper
 - [ ] Notification Center
 - [x] Hyprlock Configs
 

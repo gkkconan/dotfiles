@@ -10,7 +10,7 @@
 
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["wlr/taskbar"],
-  "modules-right": ["custom/settings", "network", "battery", "clock", "custom/powermenu"],
+  "modules-right": ["network", "battery", "clock"],
 
 
 

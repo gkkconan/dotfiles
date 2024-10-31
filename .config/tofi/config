@@ -1,0 +1,22 @@
+anchor = top
+width = 50%
+height = 30
+horizontal = true
+
+font = Fanwood Text
+font-size = 12
+prompt-text = ">  "
+
+outline-width = 0
+border-width = 0
+
+background-color = #000 
+selection-color = #FF928B
+
+min-input-width = 100
+result-spacing = 40
+
+padding-top = 3
+padding-bottom = 0
+padding-left = 0
+padding-right = 0

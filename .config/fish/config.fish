@@ -4,6 +4,8 @@ end
 fish_add_path ~
 # set fish_greeting ""
 
+###----- ALIASES -----###
+alias vim=nvim
 
 ###----- FUNCTIONS -----###
 function obsidian

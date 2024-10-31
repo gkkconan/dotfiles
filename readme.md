@@ -29,7 +29,6 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 | ![](.github/01.png) | ![](.github/02.png) |
 | ------------------- | ------------------- |
 | ![](.github/03.png) | ![](.github/04.png) |
-| ![](.github/05.png) | ![](.github/06.png) |
 
 
 ## Configs
@@ -39,10 +38,9 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - Browser: Firefox
 - Terminal: Kitty
 - Shell: Fish
-- Editor: Codium/Neovim
+- Editor: VSCodium/Neovim
 - Top Bar: Waybar
 - Launcher: Tofi
-- Basic Control Panel: EWW (WIP)
 - Audio Visualizer: Cava
 - Notification Daemon: Dunst
 - Wallpaper Daemon: Hyprpaper
@@ -53,7 +51,7 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - [x] Switch to tofi as App Launcher
 - [ ] Switch to SWWW instead Hyprpaper
 - [ ] Notification Center
-- [ ] Hyprlock Configs
+- [x] Hyprlock Configs
 
 ## Customization
 Feel free to fork this repository and adjust the configurations to fit your needs. Everyone's workflow is different, and these dotfiles are tailored to mine. Tweak away!

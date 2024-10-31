@@ -14,8 +14,8 @@
     icon_corner_radius = 5
     gap_size = 5
     line_height = 0
-    frame_width = 0
-    frame_color = "#FFFFFF25"
+    frame_width = 2
+    frame_color = "#FFFFFF"
     separator_height = 1
     separator_color = frame
     transparency = 30
@@ -53,19 +53,19 @@
 
 
 [urgency_low]
-    background = "#1E1E2ECC"
+    background = "#000000CC"
     foreground = "#D8DEE9"
     timeout = 5
     # icon = /path/to/icon
 
 [urgency_normal]
-    background = "#1E1E2ECC"
+    background = "#000000CC"
     foreground = "#D8DEE9"
     timeout = 20
     # icon = /path/to/icon
 
 [urgency_critical]
-    background = "#8272A499"		 # "#F28FADE6"  # "#C77365"
+    background = "#FF928BCC"
     foreground = "#1D232B"
     timeout = 0
     # icon = /path/to/icon

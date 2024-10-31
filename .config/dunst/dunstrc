@@ -15,7 +15,7 @@
     gap_size = 5
     line_height = 0
     frame_width = 2
-    frame_color = "#FFFFFF"
+    frame_color = "#FFFFFF25"
     separator_height = 1
     separator_color = frame
     transparency = 30

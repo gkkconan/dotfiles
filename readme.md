@@ -39,9 +39,9 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - Browser: Firefox
 - Terminal: Kitty
 - Shell: Fish
-- Editor: Codium/Neovim
+- Editor: VSCodium/Neovim
 - Top Bar: Waybar
-- Launcher: Tofi
+- Launcher: Rofi
 - Basic Control Panel: EWW (WIP)
 - Audio Visualizer: Cava
 - Notification Daemon: Dunst
@@ -50,10 +50,10 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 ## TODO
 - [ ] Neovim Configs
 - [x] Fish Configs
-- [x] Switch to tofi as App Launcher
+- [x] Switch to rofi as App Launcher
 - [ ] Switch to SWWW instead Hyprpaper
 - [ ] Notification Center
-- [ ] Hyprlock Configs
+- [x] Hyprlock Configs
 
 ## Customization
 Feel free to fork this repository and adjust the configurations to fit your needs. Everyone's workflow is different, and these dotfiles are tailored to mine. Tweak away!

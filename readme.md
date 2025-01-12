@@ -47,12 +47,32 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - Wallpaper Daemon: Hyprpaper
 
 ## TODO
-- [ ] Neovim Configs
+- [ ] Neovim Configs (WIP)
 - [x] Fish Configs
 - [x] Switch to tofi as App Launcher
 - [x] Switch to SWWW instead Hyprpaper
+- [x] Change theme feature
 - [ ] Notification Center
 - [x] Hyprlock Configs
+
+## Main shortcuts
+- `super + T`: open default terminal (kitty)
+- `super + N`: open default file manager (nautilus)
+- `super + F`: fullscreen active window
+- `super + R`: toggle menu (app launcher)
+- `super + K`: toggle waybar
+- `super + Y`: restart swww
+- `super + U`: restart dunst
+- `super + O`: open obsidian
+- `super + L`: run hyprlock
+
+- `super + alt + 1`: switch to rice-v1
+- `super + alt + 2`: switch to rice-v2
+- `super + alt + backslash`: switch theme (just rice-v2)
+
+- `super + shift + 8`: screenshot (full)
+- `super + shift + 9`: screenshot (partial)
+- `super + shift + backslash`: color picker (hyprpicker)
 
 ## Customization
 Feel free to fork this repository and adjust the configurations to fit your needs. Everyone's workflow is different, and these dotfiles are tailored to mine. Tweak away!

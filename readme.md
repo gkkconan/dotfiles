@@ -19,6 +19,7 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - [Screenshots](#screenshots)
 - [Configs](#configs)
 - [TODO](#todo)
+- [SHORTCUTS](#shortcuts)
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [Credits](#credits)
@@ -55,7 +56,7 @@ Let me know if something's wrong and remember: suggestions are always welcome! ð
 - [ ] Notification Center
 - [x] Hyprlock Configs
 
-## Main shortcuts
+## Shortcuts
 - `super + T`: open default terminal (kitty)
 - `super + N`: open default file manager (nautilus)
 - `super + F`: fullscreen active window

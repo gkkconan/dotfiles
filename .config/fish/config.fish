@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 fish_add_path ~
-# set fish_greeting ""
+set fish_greeting ""
 
 ###----- ALIASES -----###
 alias vim=nvim
@@ -14,5 +14,13 @@ function obsidian
 end
 
 function fish_greeting
-	echo 'Welcome'(set_color DF1722) $USER ':)'
+# 	echo 'Welcome'(set_color DF1722) $USER ':)'
+end
+
+
+function fish_prompt
+	set_color $fish_color_cwd
+	echo -n (basename $PWD)
+	set_color normal
+	echo -n ' > '
 end
